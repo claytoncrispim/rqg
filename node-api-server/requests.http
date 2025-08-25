@@ -1,0 +1,26 @@
+### Get all quotes
+GET https://orange-waffle-vq64r74664vh7x6-3000.app.github.dev/api/quotes
+
+###
+### Create a new quote
+POST https://orange-waffle-vq64r74664vh7x6-3000.app.github.dev/api/quotes
+Content-Type: application/json
+
+{
+    "text": "The future belongs to those who believe in the beauty of their dreams.",
+    "author": "Eleanor Roosevelt"
+}
+
+###
+### Update a quote
+PUT https://orange-waffle-vq64r74664vh7x6-3000.app.github.dev/api/quotes/1
+Content-Type: application/json
+
+{
+  "text": "The only way to do great work is to love what you are doing.",
+  "author": "Steve Jobs (Updated)"
+}
+
+###
+### Delete a quote
+DELETE https://orange-waffle-vq64r74664vh7x6-3000.app.github.dev/api/quotes/2

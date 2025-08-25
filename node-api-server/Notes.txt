@@ -1,0 +1,10 @@
+Recap of Your API 🏆
+You've now mastered the fundamentals of creating a backend service. You've learned how to handle the four essential data operations, each corresponding to an HTTP method:
+
+Create (POST): Adds new data.
+
+Read (GET): Retrieves a list or a single item.
+
+Update (PUT): Modifies existing data.
+
+Delete (DELETE): Removes data.
